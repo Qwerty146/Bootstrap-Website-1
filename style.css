@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*:not(i) {
+    font-family: 'Montserrat' !important;
+}
+
+a {
+    color: white !important;
+    transition: 0.3s ease-in-out;
+}
+
+.hamburger {
+    transition: 0.5s ease-in-out;
+}
+
+.hamburger:hover {
+    background-color: lightgray;
+}
+
+a:hover {
+    color: black !important;
+    background-color: white;
+}
+
+.fa-plane {
+    -webkit-text-stroke: 1px black;
+    color: rgb(124, 112, 112);
+}
+
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: 0.5s ease-in-out;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .5);
+    transform: scale(1.05);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
